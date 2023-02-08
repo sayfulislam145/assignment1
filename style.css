@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header-container {
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-left: 800px;
+    padding-right: 200px;
+    padding-top: 250px;
+    text-align: right;
+}
+
+.header-container-text h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.header-container-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.header-container-text button {
+    padding: 10px 20px;
+    color: white;
+    background: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 40px;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.my-failure {
+    display: flex;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.my-image {
+    height: 700px;
+}
+
+.failure-details {
+    margin-left: 80px;
+}
+
+.failure-heading {
+    width: 288px;
+    height: 94px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.failure-reason {
+    width: 400px;
+    height: 104px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.failure-reason-point {
+    width: 400px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.failure-reason-point span {
+    color: aqua;
+    margin-right: 5px;
+}
+
+.my-plan-heading {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.my-plan-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill-heading {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-heading p {
+    color: grey;
+}
+
+.skill-learning-center {
+    height: 400px;
+    background-color: #F15B22;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.skill-learning-center-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+}
+
+.skill-learning-center-text {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.skill-learning-center button {
+    padding: 15px 25px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.skill-learning-center button a {
+    text-decoration: none;
+    color: #F15B22;
+}
+
+.call-now {
+    margin-bottom: 100px;
+    background-image:
+        linear-gradient(to left, rgba(241, 91, 34, .01), #F15B22),
+        url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.call-now p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 459px;
+    color: #FFFFFF;
+}
+
+.call-now button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: white;
+    color: #F15B22;
+    font-size: 20px;
+    border: 0;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    background-color: #151414;
+    color: white;
+
+}
+
+.left-section {
+    width: 50%;
+
+
+
+}
+
+.footer-left-heading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.footer-left-text {
+    margin-bottom: 10px;
+}
+
+.footer-contact {
+    line-height: 35px;
+}
+
+.footer-social-icon {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.footer-social-icon img {
+    margin-right: 10px;
+}
+
+.right-section {
+    width: 50%;
+    padding-left: 250px;
+
+}
+
+.footer-right-heading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.right-section input {
+    background-color: #151414;
+    border: 1px solid white;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    width: 250px;
+
+}
+
+.right-section input::placeholder {
+    color: white;
+}
+
+.right-section button {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
