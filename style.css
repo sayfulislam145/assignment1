@@ -156,7 +156,7 @@ main {
     margin-bottom: 100px;
     background-image:
         linear-gradient(to left, rgba(241, 91, 34, .01), #F15B22),
-        url(/images/watch.png);
+        url(images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
